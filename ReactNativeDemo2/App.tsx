@@ -40,19 +40,18 @@ function App(): JSX.Element {
   }, []);
   
   return (
-    <View
-    style={{alignItems: 'center',flex:1,justifyContent: 'center', backgroundColor: Colors.red}}>
+    <View style={styles.container}>
     <Video
   ref={() => videoPlayer}
   source={{ uri: 'https://buffup-public.s3.eu-west-2.amazonaws.com/video/FIFA+VOD.mp4' }}
-  style={{ width: width, height: height }}
+  style={styles.video}
     resizeMode="cover"
     onTouchEnd={handleVideoResume}
   controls={true} />
 
 {isResumed && (
-        <View style={{ position: 'absolute', width: 200, height: 200, alignItems: 'center', justifyContent: 'center' }}>
-          <Text style={{ color: 'green' }}>Handle Touch event</Text>
+        <View style={styles.overlay}>
+          <Text style={styles.overlayText}> screen can receive events</Text>
         </View>
       )}
   
@@ -62,18 +61,27 @@ function App(): JSX.Element {
 
 const styles = StyleSheet.create({
   container: {
+    alignItems: 'center',
     flex: 1,
     justifyContent: 'center',
-    alignItems: 'center',
+    backgroundColor: Colors.red,
   },
-  
-    backgroundVideo: {
-      position: 'absolute',
-      top: 0,
-      left: 0,
-      bottom: 0,
-      right: 0,
-    },
+  video: {
+    width: '100%',
+    height: '100%',
+  },
+  overlay: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    height: 200,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  overlayText: {
+    color: 'white',
+  },
 });
 
 export default App;
