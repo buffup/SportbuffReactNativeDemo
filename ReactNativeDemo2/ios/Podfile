@@ -21,7 +21,7 @@ if linkage != nil
   use_frameworks! :linkage => linkage.to_sym
 end
 
-target 'ReactNativeDemo2' do
+target 'SportbuffReactNativeDemo' do
   config = use_native_modules!
   pod 'SportBuff'
   # Flags change depending on the env values.
@@ -43,7 +43,7 @@ target 'ReactNativeDemo2' do
     :app_path => "#{Pod::Config.instance.installation_root}/.."
   )
 
-  target 'ReactNativeDemo2Tests' do
+  target 'SportbuffReactNativeDemoTests' do
     inherit! :complete
     # Pods for testing
   end

@@ -7,11 +7,11 @@
 #define TIMEOUT_SECONDS 600
 #define TEXT_TO_LOOK_FOR @"Welcome to React"
 
-@interface ReactNativeDemo2Tests : XCTestCase
+@interface SportbuffReactNativeDemoTests : XCTestCase
 
 @end
 
-@implementation ReactNativeDemo2Tests
+@implementation SportbuffReactNativeDemoTests
 
 - (BOOL)findSubviewInView:(UIView *)view matching:(BOOL (^)(UIView *view))test
 {

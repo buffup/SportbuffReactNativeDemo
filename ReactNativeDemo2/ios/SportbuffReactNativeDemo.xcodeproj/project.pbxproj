@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		00E356F31AD99517003FC87E /* ReactNativeDemo2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* ReactNativeDemo2Tests.m */; };
-		0C80B921A6F3F58F76C31292 /* libPods-ReactNativeDemo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo2.a */; };
+		00E356F31AD99517003FC87E /* SportbuffReactNativeDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* SportbuffReactNativeDemoTests.m */; };
+		0C80B921A6F3F58F76C31292 /* libPods-SportbuffReactNativeDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-SportbuffReactNativeDemo.a */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
@@ -17,7 +17,7 @@
 		1E5DF8E129FBDEF900523B0C /* SportBuffWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DF8E029FBDEF900523B0C /* SportBuffWrapper.swift */; };
 		1E5DF8E329FBE0BA00523B0C /* SportBuffWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E5DF8E229FBE0BA00523B0C /* SportBuffWrapper.m */; };
 		1ED0A9832A03BC80009771B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED0A9822A03BC80009771B1 /* ViewController.swift */; };
-		7699B88040F8A987B510C191 /* libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a */; };
+		7699B88040F8A987B510C191 /* libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +27,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = ReactNativeDemo2;
+			remoteInfo = SportbuffReactNativeDemo;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -45,29 +45,29 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		00E356EE1AD99517003FC87E /* ReactNativeDemo2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReactNativeDemo2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* SportbuffReactNativeDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SportbuffReactNativeDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* ReactNativeDemo2Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeDemo2Tests.m; sourceTree = "<group>"; };
-		13B07F961A680F5B00A75B9A /* ReactNativeDemo2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReactNativeDemo2.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ReactNativeDemo2/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ReactNativeDemo2/AppDelegate.mm; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ReactNativeDemo2/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ReactNativeDemo2/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ReactNativeDemo2/main.m; sourceTree = "<group>"; };
-		19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356F21AD99517003FC87E /* SportbuffReactNativeDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportbuffReactNativeDemoTests.m; sourceTree = "<group>"; };
+		13B07F961A680F5B00A75B9A /* SportbuffReactNativeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SportbuffReactNativeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = SportbuffReactNativeDemo/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = SportbuffReactNativeDemo/AppDelegate.mm; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = SportbuffReactNativeDemo/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = SportbuffReactNativeDemo/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = SportbuffReactNativeDemo/main.m; sourceTree = "<group>"; };
+		19F6CBCC0A4E27FBF8BF4A61 /* libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0F908F29FBED13002D6F4F /* libReact-Core.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-Core.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E0F909129FBED65002D6F4F /* libReact-jsi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libReact-jsi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1E5DF8DD29FBDEAD00523B0C /* ReactNativeDemo2-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReactNativeDemo2-Bridging-Header.h"; sourceTree = "<group>"; };
+		1E5DF8DD29FBDEAD00523B0C /* SportbuffReactNativeDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SportbuffReactNativeDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 		1E5DF8E029FBDEF900523B0C /* SportBuffWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SportBuffWrapper.swift; sourceTree = "<group>"; };
 		1E5DF8E229FBE0BA00523B0C /* SportBuffWrapper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SportBuffWrapper.m; sourceTree = "<group>"; };
 		1E5DF8E429FBE41B00523B0C /* SportBuff.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = SportBuff.xcframework; path = Pods/SportBuff/SportBuff.xcframework; sourceTree = "<group>"; };
 		1ED0A9822A03BC80009771B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo2.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2.debug.xcconfig"; sourceTree = "<group>"; };
-		5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo2.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2.release.xcconfig"; sourceTree = "<group>"; };
-		5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo2-ReactNativeDemo2Tests.debug.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ReactNativeDemo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ReactNativeDemo2/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNativeDemo2-ReactNativeDemo2Tests.release.xcconfig"; path = "Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		3B4392A12AC88292D35C810B /* Pods-SportbuffReactNativeDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportbuffReactNativeDemo.debug.xcconfig"; path = "Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5709B34CF0A7D63546082F79 /* Pods-SportbuffReactNativeDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportbuffReactNativeDemo.release.xcconfig"; path = "Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo.release.xcconfig"; sourceTree = "<group>"; };
+		5B7EB9410499542E8C5724F5 /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		5DCACB8F33CDC322A6C60F78 /* libPods-SportbuffReactNativeDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SportbuffReactNativeDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = SportbuffReactNativeDemo/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89C6BE57DB24E9ADA2F236DE /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.release.xcconfig"; path = "Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7699B88040F8A987B510C191 /* libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a in Frameworks */,
+				7699B88040F8A987B510C191 /* libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,20 +86,20 @@
 			files = (
 				1E0F909229FBED65002D6F4F /* libReact-jsi.a in Frameworks */,
 				1E0F909029FBED13002D6F4F /* libReact-Core.a in Frameworks */,
-				0C80B921A6F3F58F76C31292 /* libPods-ReactNativeDemo2.a in Frameworks */,
+				0C80B921A6F3F58F76C31292 /* libPods-SportbuffReactNativeDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		00E356EF1AD99517003FC87E /* ReactNativeDemo2Tests */ = {
+		00E356EF1AD99517003FC87E /* SportbuffReactNativeDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* ReactNativeDemo2Tests.m */,
+				00E356F21AD99517003FC87E /* SportbuffReactNativeDemoTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = ReactNativeDemo2Tests;
+			path = SportbuffReactNativeDemoTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -110,7 +110,7 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* ReactNativeDemo2 */ = {
+		13B07FAE1A68108700A75B9A /* SportbuffReactNativeDemo */ = {
 			isa = PBXGroup;
 			children = (
 				1ED0A9812A03BC65009771B1 /* Extensions */,
@@ -120,11 +120,11 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */,
 				13B07FB71A68108700A75B9A /* main.m */,
-				1E5DF8DD29FBDEAD00523B0C /* ReactNativeDemo2-Bridging-Header.h */,
+				1E5DF8DD29FBDEAD00523B0C /* SportbuffReactNativeDemo-Bridging-Header.h */,
 				1E5DF8E029FBDEF900523B0C /* SportBuffWrapper.swift */,
 				1E5DF8E229FBE0BA00523B0C /* SportBuffWrapper.m */,
 			);
-			name = ReactNativeDemo2;
+			name = SportbuffReactNativeDemo;
 			sourceTree = "<group>";
 		};
 		1ED0A9812A03BC65009771B1 /* Extensions */ = {
@@ -142,8 +142,8 @@
 				1E0F908F29FBED13002D6F4F /* libReact-Core.a */,
 				1E5DF8E429FBE41B00523B0C /* SportBuff.xcframework */,
 				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
-				5DCACB8F33CDC322A6C60F78 /* libPods-ReactNativeDemo2.a */,
-				19F6CBCC0A4E27FBF8BF4A61 /* libPods-ReactNativeDemo2-ReactNativeDemo2Tests.a */,
+				5DCACB8F33CDC322A6C60F78 /* libPods-SportbuffReactNativeDemo.a */,
+				19F6CBCC0A4E27FBF8BF4A61 /* libPods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -158,9 +158,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* ReactNativeDemo2 */,
+				13B07FAE1A68108700A75B9A /* SportbuffReactNativeDemo */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* ReactNativeDemo2Tests */,
+				00E356EF1AD99517003FC87E /* SportbuffReactNativeDemoTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -173,8 +173,8 @@
 		83CBBA001A601CBA00E9B192 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				13B07F961A680F5B00A75B9A /* ReactNativeDemo2.app */,
-				00E356EE1AD99517003FC87E /* ReactNativeDemo2Tests.xctest */,
+				13B07F961A680F5B00A75B9A /* SportbuffReactNativeDemo.app */,
+				00E356EE1AD99517003FC87E /* SportbuffReactNativeDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -182,10 +182,10 @@
 		BBD78D7AC51CEA395F1C20DB /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo2.debug.xcconfig */,
-				5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo2.release.xcconfig */,
-				5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.debug.xcconfig */,
-				89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.release.xcconfig */,
+				3B4392A12AC88292D35C810B /* Pods-SportbuffReactNativeDemo.debug.xcconfig */,
+				5709B34CF0A7D63546082F79 /* Pods-SportbuffReactNativeDemo.release.xcconfig */,
+				5B7EB9410499542E8C5724F5 /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.debug.xcconfig */,
+				89C6BE57DB24E9ADA2F236DE /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -193,9 +193,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* ReactNativeDemo2Tests */ = {
+		00E356ED1AD99517003FC87E /* SportbuffReactNativeDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeDemo2Tests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SportbuffReactNativeDemoTests" */;
 			buildPhases = (
 				A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */,
 				00E356EA1AD99517003FC87E /* Sources */,
@@ -209,14 +209,13 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = ReactNativeDemo2Tests;
-			productName = ReactNativeDemo2Tests;
-			productReference = 00E356EE1AD99517003FC87E /* ReactNativeDemo2Tests.xctest */;
+			name = SportbuffReactNativeDemoTests;
+			productReference = 00E356EE1AD99517003FC87E /* SportbuffReactNativeDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* ReactNativeDemo2 */ = {
+		13B07F861A680F5B00A75B9A /* SportbuffReactNativeDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeDemo2" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SportbuffReactNativeDemo" */;
 			buildPhases = (
 				C38B50BA6285516D6DCD4F65 /* [CP] Check Pods Manifest.lock */,
 				FD10A7F022414F080027D42C /* Start Packager */,
@@ -232,9 +231,9 @@
 			);
 			dependencies = (
 			);
-			name = ReactNativeDemo2;
-			productName = ReactNativeDemo2;
-			productReference = 13B07F961A680F5B00A75B9A /* ReactNativeDemo2.app */;
+			name = SportbuffReactNativeDemo;
+			productName = SportbuffReactNativeDemo;
+			productReference = 13B07F961A680F5B00A75B9A /* SportbuffReactNativeDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -254,7 +253,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeDemo2" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SportbuffReactNativeDemo" */;
 			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -267,8 +266,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* ReactNativeDemo2 */,
-				00E356ED1AD99517003FC87E /* ReactNativeDemo2Tests */,
+				13B07F861A680F5B00A75B9A /* SportbuffReactNativeDemo */,
+				00E356ED1AD99517003FC87E /* SportbuffReactNativeDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -315,15 +314,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A55EABD7B0C7F3A422A6CC61 /* [CP] Check Pods Manifest.lock */ = {
@@ -341,7 +340,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -363,7 +362,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-ReactNativeDemo2-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-SportbuffReactNativeDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -376,15 +375,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		E235C05ADACE081382539298 /* [CP] Copy Pods Resources */ = {
@@ -393,15 +392,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2/Pods-ReactNativeDemo2-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo/Pods-SportbuffReactNativeDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F6A41C54EA430FDDC6A6ED99 /* [CP] Copy Pods Resources */ = {
@@ -410,15 +409,15 @@
 			files = (
 			);
 			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-resources-${CONFIGURATION}-input-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-resources-${CONFIGURATION}-output-files.xcfilelist",
+				"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-resources-${CONFIGURATION}-output-files.xcfilelist",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ReactNativeDemo2-ReactNativeDemo2Tests/Pods-ReactNativeDemo2-ReactNativeDemo2Tests-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests/Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		FD10A7F022414F080027D42C /* Start Packager */ = {
@@ -447,7 +446,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* ReactNativeDemo2Tests.m in Sources */,
+				00E356F31AD99517003FC87E /* SportbuffReactNativeDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,7 +467,7 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* ReactNativeDemo2 */;
+			target = 13B07F861A680F5B00A75B9A /* SportbuffReactNativeDemo */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -476,7 +475,7 @@
 /* Begin XCBuildConfiguration section */
 		00E356F61AD99517003FC87E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.debug.xcconfig */;
+			baseConfigurationReference = 5B7EB9410499542E8C5724F5 /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -484,7 +483,7 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = ReactNativeDemo2Tests/Info.plist;
+				INFOPLIST_FILE = SportbuffReactNativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -498,18 +497,18 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeDemo2.app/ReactNativeDemo2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportbuffReactNativeDemo.app/SportbuffReactNativeDemo";
 			};
 			name = Debug;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-ReactNativeDemo2-ReactNativeDemo2Tests.release.xcconfig */;
+			baseConfigurationReference = 89C6BE57DB24E9ADA2F236DE /* Pods-SportbuffReactNativeDemo-SportbuffReactNativeDemoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
-				INFOPLIST_FILE = ReactNativeDemo2Tests/Info.plist;
+				INFOPLIST_FILE = SportbuffReactNativeDemoTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -523,13 +522,13 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ReactNativeDemo2.app/ReactNativeDemo2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SportbuffReactNativeDemo.app/SportbuffReactNativeDemo";
 			};
 			name = Release;
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-ReactNativeDemo2.debug.xcconfig */;
+			baseConfigurationReference = 3B4392A12AC88292D35C810B /* Pods-SportbuffReactNativeDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -539,7 +538,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = ReactNativeDemo2/Info.plist;
+				INFOPLIST_FILE = SportbuffReactNativeDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportbuffReactNativeDemo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -551,8 +551,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeDemo2;
-				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeDemo2-Bridging-Header.h";
+				PRODUCT_NAME = SportbuffReactNativeDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "SportbuffReactNativeDemo-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -561,7 +561,7 @@
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-ReactNativeDemo2.release.xcconfig */;
+			baseConfigurationReference = 5709B34CF0A7D63546082F79 /* Pods-SportbuffReactNativeDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -570,7 +570,8 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = ReactNativeDemo2/Info.plist;
+				INFOPLIST_FILE = SportbuffReactNativeDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SportbuffReactNativeDemo;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -582,8 +583,8 @@
 					"-lc++",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
-				PRODUCT_NAME = ReactNativeDemo2;
-				SWIFT_OBJC_BRIDGING_HEADER = "ReactNativeDemo2-Bridging-Header.h";
+				PRODUCT_NAME = SportbuffReactNativeDemo;
+				SWIFT_OBJC_BRIDGING_HEADER = "SportbuffReactNativeDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
@@ -731,7 +732,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "ReactNativeDemo2Tests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "SportbuffReactNativeDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -740,7 +741,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "ReactNativeDemo2" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "SportbuffReactNativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -749,7 +750,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "ReactNativeDemo2" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "SportbuffReactNativeDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,
