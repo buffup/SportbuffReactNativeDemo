@@ -18,7 +18,7 @@ import {
 import { NativeModules, Dimensions } from 'react-native';
  
 import Video from 'react-native-video';
-
+import { VIDEO_URL } from './config';
 
 
 function App(): JSX.Element {
@@ -43,7 +43,7 @@ function App(): JSX.Element {
     <View style={styles.container}>
     <Video
   ref={() => videoPlayer}
-  source={{ uri: 'https://buffup-public.s3.eu-west-2.amazonaws.com/video/FIFA+VOD.mp4' }}
+  source={{ uri: VIDEO_URL }}
   style={styles.video}
     resizeMode="cover"
     onTouchEnd={handleVideoResume}
