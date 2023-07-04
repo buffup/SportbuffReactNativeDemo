@@ -42,7 +42,7 @@ function App(): JSX.Element {
   return (
     <View style={styles.container}>
     <Video
-  ref={() => videoPlayer}
+  ref={videoPlayer}
   source={{ uri: VIDEO_URL }}
   style={styles.video}
     resizeMode="cover"
