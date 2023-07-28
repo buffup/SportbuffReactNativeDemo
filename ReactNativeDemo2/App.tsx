@@ -55,6 +55,10 @@ function App(): JSX.Element {
       setVideoHeight(newOrientation === ORIENTATION_PORTRAIT ? VIDEO_PORTRAIT_HEIGHT : height);
     };
     Dimensions.addEventListener('change', handleOrientationChange);
+
+    return () => {
+      Dimensions.removeEventListener('change', handleOrientationChange);
+    };
   }, []);
   
   return (
