@@ -19,6 +19,10 @@ import { NativeModules, Dimensions } from 'react-native';
  
 import Video from 'react-native-video';
 import { VIDEO_URL } from './config';
+type Orientation = 'portrait' | 'landscape';
+const ORIENTATION_PORTRAIT: Orientation = 'portrait';
+const ORIENTATION_LANDSCAPE: Orientation = 'landscape';
+const VIDEO_PORTRAIT_HEIGHT = 300;
 
 
 function App(): JSX.Element {
@@ -26,6 +30,11 @@ function App(): JSX.Element {
   const videoPlayer = useRef<Video>();
   const { width, height } = Dimensions.get('window');
   const [isResumed, setIsResumed] = useState(false);
+  const [videoWidth, setVideoWidth] = useState(Dimensions.get('window').width);
+  const [videoHeight, setVideoHeight] = useState(Dimensions.get('window').height);
+  const [orientation, setOrientation] = useState<Orientation>(
+    height > width ?  ORIENTATION_PORTRAIT : ORIENTATION_LANDSCAPE
+  );
 
   const handleVideoResume = () => {
     setIsResumed(true);
@@ -37,6 +46,19 @@ function App(): JSX.Element {
 
   useEffect(() => {
     NativeModules.SportBuffWrapper.initializeSportBuff();
+    const handleOrientationChange = () => {
+      const { width, height } = Dimensions.get('window');
+      const newOrientation: Orientation = height > width ? ORIENTATION_PORTRAIT : ORIENTATION_LANDSCAPE;
+
+      setOrientation(newOrientation);
+      setVideoWidth(width);
+      setVideoHeight(newOrientation === ORIENTATION_PORTRAIT ? VIDEO_PORTRAIT_HEIGHT : height);
+    };
+    Dimensions.addEventListener('change', handleOrientationChange);
+
+    return () => {
+      Dimensions.removeEventListener('change', handleOrientationChange);
+    };
   }, []);
   
   return (
@@ -44,8 +66,8 @@ function App(): JSX.Element {
     <Video
   ref={videoPlayer}
   source={{ uri: VIDEO_URL }}
-  style={styles.video}
-    resizeMode="cover"
+  style={[styles.video, { width: videoWidth, height: videoHeight }]}
+    resizeMode={orientation === ORIENTATION_PORTRAIT  ? 'contain': 'cover'}
     onTouchEnd={handleVideoResume}
   controls={true} />
 
@@ -67,8 +89,8 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.red,
   },
   video: {
-    width: '100%',
-    height: '100%',
+    position: 'absolute',
+    top: 0,
   },
   overlay: {
     position: 'absolute',
