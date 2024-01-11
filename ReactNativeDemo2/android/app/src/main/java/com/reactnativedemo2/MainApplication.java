@@ -1,6 +1,9 @@
 package com.reactnativedemo2;
 
 import android.app.Application;
+import android.util.Log;
+import com.buffup.sdk.BuffSdk;
+import com.buffup.sdk.ui.log.BuffLogger;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
@@ -60,13 +63,6 @@ public class MainApplication extends Application implements ReactApplication {
             DefaultNewArchitectureEntryPoint.load();
         }
         ReactNativeFlipper.initializeFlipper(this, getReactNativeHost().getReactInstanceManager());
-//        BuffSdk.initialize(this, "sportbuff", true, false, false, 0, 0);
-        // BuffLogger.INSTANCE.subscribe(new BuffLogListener() {
-
-        //     @Override
-        //     public void onLog(@NonNull String s) {
-        //         Log.d("BuffLog", s);
-        //     }
-        // });
+        BuffSdk.initialize(this, "sportbuff", true, false, false, 0, 0);
     }
 }

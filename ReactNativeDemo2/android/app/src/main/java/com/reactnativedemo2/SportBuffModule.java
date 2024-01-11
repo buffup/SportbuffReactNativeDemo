@@ -17,7 +17,5 @@ public class SportBuffModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void initializeSportBuff() {
-        Log.d("Hello", "Hey");
-    }
+    public void initializeSportBuff() {}
 }
