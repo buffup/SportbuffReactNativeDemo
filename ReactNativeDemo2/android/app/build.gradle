@@ -89,8 +89,6 @@ def reactNativeArchitectures() {
 }
 
 android {
-    ndkVersion rootProject.ext.ndkVersion
-
     compileSdkVersion rootProject.ext.compileSdkVersion
 
     namespace "com.reactnativedemo2"
@@ -100,6 +98,13 @@ android {
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
         versionName "1.0"
+        if (System.properties['os.arch'] == "aarch64") {
+            // For M1 Users we need to use the NDK 24 which added support for aarch64
+            ndkVersion = "24.0.8215888"
+        } else {
+            // Otherwise we default to the side-by-side NDK version from AGP.
+            ndkVersion = "21.4.7075529"
+        }
     }
 
     splits {
@@ -128,7 +133,20 @@ android {
             signingConfig signingConfigs.debug
             minifyEnabled enableProguardInReleaseBuilds
             proguardFiles getDefaultProguardFile("proguard-android.txt"), "proguard-rules.pro"
+            ndk {
+                abiFilters 'armeabi-v7a', 'arm64-v8a', 'x86', 'x86_64' // Adjust based on required ABIs
+            }
+            minifyEnabled true
+            shrinkResources true
         }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    packagingOptions {
+        pickFirst 'lib/*/*.so'
     }
 
     // applicationVariants are e.g. debug, release
@@ -145,6 +163,12 @@ android {
             }
 
         }
+    }
+}
+
+configurations.all {
+    resolutionStrategy {
+        force 'org.jetbrains.kotlin:kotlin-stdlib-jdk8:1.8.10'
     }
 }
 
@@ -165,6 +189,7 @@ dependencies {
     } else {
         implementation jscFlavor
     }
+    implementation 'com.github.buffup:Android:v4.6.1'
 }
 
 apply from: file("../../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesAppBuildGradle(project)
