@@ -13,24 +13,21 @@ class SportBuffWrapper: NSObject {
   
   private lazy var buffView: BuffView = {
     let buffContainerView = BuffView()
+
     buffContainerView.startStreamListener = { result in
-      
-      DispatchQueue.main.async {
-        switch result {
-        case .success(let status):
-          print("status", status)
-          switch status {
-          case .connected:
-            print("connected")
-          default:
-            ()
-          }
-        case .failure(let error):
-          print(error.localizedDescription)
-        }
+      guard let success = result.success else {
+        print(result.failure?.localizedDescription as Any)
+        return
+      }
+
+      switch success.status {
+      case .connected:
+        print("connected")
+      default:
+        ()
       }
     }
-    
+
     return buffContainerView
   }()
   
@@ -38,7 +35,7 @@ class SportBuffWrapper: NSObject {
   func initializeSportBuff() {
     setupUI()
     // you should add your client name here
-    SportBuff.initialize(clientAccount: "", anonymousLogin: false)
+    SportBuff.initialize(clientAccount: "sportbuff", anonymousLogin: false)
     showBuffView()
   }
   
@@ -50,8 +47,8 @@ class SportBuffWrapper: NSObject {
   private func showBuffView() {
     DispatchQueue.main.async {
       //you should provide either streamId or providerId
-      self.buffView.startStream(streamId: "",
-                                providerId: nil)
+      self.buffView.startStream(streamId: "72a863ba-b444-4238-b969-4c3f9ba9af69",
+                                externalId: nil)
     }
   }
   
